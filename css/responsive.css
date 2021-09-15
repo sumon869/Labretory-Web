@@ -1,0 +1,110 @@
+@media(max-width: 1324px){
+    .service-content h3 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+@media(max-width: 1206px){
+    .service-content h3 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+@media(max-width: 1087px){
+    .service-content h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+@media (max-width: 991px){
+    .header-top{
+        padding-right: 45px;
+    }
+    .header-left {
+        display: none;
+    }
+    /* .header-menu {
+        padding-right: 18px;
+    } */
+    .image-bottom {
+        padding-top: 0 !important;
+    }
+    .image-bottom h4{
+        font-size: 20px;
+    }
+    .image-bottom i {
+        right: -173px;
+        bottom: 16px;
+    }
+    .chose img {
+        margin-top: 192px;
+    }
+}
+@media(max-width: 944px){
+    .image-bottom i {
+        right: -122px;
+        bottom: 16px;
+    }
+}
+@media(max-width: 776px){
+    .service-content h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+@media(max-width: 767px){
+    .header-top-left{
+        width: 100%;
+        text-align: center;
+    }
+    .header-top-right {
+        width: 100% !important;
+        margin-left: -210px;
+        margin-top: 12px;
+    }
+    .responsive {
+        margin-bottom: 101px;
+    }
+    .respon-margin {
+        margin-bottom: 24px;
+    }
+    .psd{
+        text-align: center;
+    }
+    /* .image-bottom {
+        width: 69%;
+        margin: auto;
+    } */
+    .choose-us{
+        text-align: center;
+    }
+    .res-mar{
+        margin-bottom: 26px;
+    }
+    .contact-form {
+        margin-top: 100px;
+    }
+    .counter2 {
+        margin-bottom: 39px;
+    }
+    .news-box{
+        text-align: center;
+    }
+    .news-img p {
+        left: 116px;
+        top: -2px;
+    }
+    .res-marg{
+        margin-bottom: 50px;
+    }
+    .single-colum{
+        text-align: center;
+    }
+    .footer-item {
+        text-align: center;
+        margin-top: 58px;
+    }
+    .footer-item h3::before {
+        left: 293px;
+    }
+    .phone p {
+        font-size: 15px;
+    }
+}

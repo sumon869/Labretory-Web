@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?218aa8586ebfca8c527114ead8d846ed") format("truetype"),
+url("./flaticon.woff?218aa8586ebfca8c527114ead8d846ed") format("woff"),
+url("./flaticon.woff2?218aa8586ebfca8c527114ead8d846ed") format("woff2"),
+url("./flaticon.eot?218aa8586ebfca8c527114ead8d846ed#iefix") format("embedded-opentype"),
+url("./flaticon.svg?218aa8586ebfca8c527114ead8d846ed#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "lungs": "\f101",
+    "sugar-blood-level": "\f102",
+    "microscope": "\f103",
+    "lab-tool": "\f104",
+    "atom": "\f105",
+    "chemistry": "\f106",
+    "checked": "\f107",
+    "microscope-1": "\f108",
+    "heart": "\f109",
+);
+
+.flaticon-lungs:before {
+    content: map-get($flaticon-map, "lungs");
+}
+.flaticon-sugar-blood-level:before {
+    content: map-get($flaticon-map, "sugar-blood-level");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-lab-tool:before {
+    content: map-get($flaticon-map, "lab-tool");
+}
+.flaticon-atom:before {
+    content: map-get($flaticon-map, "atom");
+}
+.flaticon-chemistry:before {
+    content: map-get($flaticon-map, "chemistry");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-microscope-1:before {
+    content: map-get($flaticon-map, "microscope-1");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
